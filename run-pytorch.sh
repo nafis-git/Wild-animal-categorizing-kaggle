@@ -6,13 +6,13 @@
 #SBATCH --gres=gpu:v100:1,nvme:100
 #SBATCH --time=1:00:00
 #SBATCH --mem=64G
-#SBATCH --account=project_2002675
+#SBATCH --account=project_2000859
 #SBATCH --reservation=arcada_dl
 module purge
 module load pytorch/1.3.0
 module list
 
-export DATADIR=/scratch/project_2000859/extracted
+export DATADIR=/scratch/project_2000859/mohamman/bda-project
 export TMPDIR=$LOCAL_SCRATCH
 
 set -xv
