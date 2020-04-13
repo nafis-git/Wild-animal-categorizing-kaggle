@@ -7,12 +7,12 @@
 #SBATCH --time=1:00:00
 #SBATCH --mem=64G
 #SBATCH --account=project_2000859
-#SBATCH --reservation=arcada_dl
+
 module purge
 module load pytorch/1.3.0
 module list
 
-export DATADIR=/scratch/project_2000859/mohamman/bda-project
+export DATADIR=/scratch/project_2000859/extract
 export TMPDIR=$LOCAL_SCRATCH
 
 set -xv
