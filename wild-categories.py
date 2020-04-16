@@ -29,8 +29,6 @@ from torchvision import transforms
 from skimage import io
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-#%matplotlib inline
-
 
 
 def kaggle_commit_logger(str_to_log, need_print = True):
