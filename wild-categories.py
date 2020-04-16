@@ -1,5 +1,18 @@
-import os
 
+# coding: utf-8
+
+# Dogs-vs-cats classification with CNNs
+#
+# In this script, we'll train a convolutional neural network (CNN,
+# ConvNet) to classify images of dogs from images of cats using
+# PyTorch. This script is largely based on the blog post [Building
+# powerful image classification models using very little
+# data](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
+# by François Chollet.
+#
+# **Note that using a GPU with this script is highly recommended.**
+
+import os
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
