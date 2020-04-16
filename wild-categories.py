@@ -28,7 +28,7 @@ def kaggle_commit_logger(str_to_log, need_print = True):
 
 
 import json
-with open(r'/iwildcam2020_train_annotations.json') as json_file:
+with open(r'/scratch/project_2000859/mohamman/metadata/iwildcam2020_train_annotations.json') as json_file:
     train_data = json.load(json_file)
 
 
