@@ -29,7 +29,7 @@ from torchvision import transforms
 from skimage import io
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-%matplotlib inline
+#%matplotlib inline
 
 
 
