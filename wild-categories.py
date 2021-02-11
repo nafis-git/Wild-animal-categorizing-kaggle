@@ -1,7 +1,4 @@
 
-# coding: utf-8
-
-# In[9]:
 
 
 get_ipython().system('module load pytorch')
@@ -10,25 +7,22 @@ get_ipython().system('module load pytorch')
 get_ipython().system('pip install torch')
 
 
-# In[12]:
+
 
 
 import torch
 
 
-# In[14]:
 
 
 get_ipython().system(' pip install pillow')
 
 
-# In[16]:
 
 
 import PIL
 
 
-# In[19]:
 
 
 import os
@@ -125,7 +119,7 @@ CLASSES_TO_USE = df_train['category_id'].unique()
 print("CLASSES_TO_USE",CLASSES_TO_USE)
 
 
-# In[36]:
+
 
 
 NUM_CLASSES = len(CLASSES_TO_USE)
